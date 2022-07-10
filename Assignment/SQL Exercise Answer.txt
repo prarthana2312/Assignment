@@ -1,0 +1,2 @@
+select count (*)from party where PARTY_SOBRIETY='%drinking%' and date>2020-05-23
+group by PARTY_SEX;
